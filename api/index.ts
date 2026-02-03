@@ -1,8 +1,3 @@
-import { Hono } from "hono";
-
-
-const app = new Hono().basePath('/api').get("/hello", (c) => {
-  return c.json({ message: "Hello from Hono!" });
-})
+import * as app from "../src/server/index.ts";
 
 export default app;
