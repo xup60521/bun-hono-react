@@ -11,6 +11,5 @@
             "destination": "/dist/index.html"
         }
     ],
-    "outputDirectory": "dist",
-    "cleanUrls": true
+    "outputDirectory": "dist"
 }
