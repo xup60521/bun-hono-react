@@ -3,11 +3,11 @@
     "bunVersion": "1.x",
     "rewrites": [
         {
-            "source": "/api/**",
+            "source": "/api/(.*)",
             "destination": "/api/index.ts"
         },
         {
-            "source": "/**",
+            "source": "/(.*)",
             "destination": "/dist/index.html"
         }
     ],
